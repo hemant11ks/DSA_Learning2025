@@ -1,1 +1,19 @@
 STL Libraries:
+
+In Java, there is no direct Standard Template Library (STL) as in C++. However, Java provides a Collection Framework, which serves a similar purpose by offering a set of ready-to-use data structures and algorithms.
+
+The Java Collection Framework includes:
+
+Lists (e.g., ArrayList, LinkedList)
+Sets (e.g., HashSet, TreeSet)
+Maps (e.g., HashMap, TreeMap)
+Queues (e.g., PriorityQueue, Deque)
+🚀 Java STL Equivalent: Collection Framework
+1️⃣ List Interface
+Used for ordered collections that allow duplicate elements.
+
+
+
+
+
+
