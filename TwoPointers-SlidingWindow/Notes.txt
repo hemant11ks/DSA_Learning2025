@@ -1,0 +1,23 @@
+Two Pointers Technique
+✅ Idea:
+Use two pointers (variables) to iterate through a data structure (usually an array or string) from different directions or at different speeds.
+
+✅ Use cases:
+Searching pairs in a sorted array
+
+Reversing arrays or strings
+
+Merging sorted arrays
+
+Removing duplicates
+
+Sliding Window Technique
+✅ Idea:
+Use a "window" (a subset of elements) that slides over the array to find a condition (e.g., max/min sum, length, etc.)
+
+✅ Use cases:
+Maximum/minimum sum of subarrays
+
+Longest substring without repeating characters
+
+Counting occurrences in subarrays
