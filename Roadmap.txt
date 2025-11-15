@@ -1,6 +1,320 @@
 Roadmap & Flow:
+✅ 📌 DSA Roadmap (Pattern-Based) — Beginner → Advanced
+🔰 STEP 1: Master Programming Fundamentals
+✔ Topics
 
-Week-Wise Planning:
+Variables, loops, functions
 
-Basic:
-1
+Time & Space Complexity (Big-O)
+
+Recursion basics
+
+✔ Resources
+
+YouTube: CodeWithHarry / Kunal Kushwaha
+
+Course: freeCodeCamp DSA basics
+
+✔ Practice
+
+Print Patterns
+
+Simple math problems
+
+Recursion basics (factorial, fibonacci)
+
+🔰 STEP 2: Learn Core Data Structures
+
+Master these before moving ahead.
+
+📦 Data Structures (in order)
+
+Arrays
+
+Strings
+
+HashMap / HashSet
+
+Linked List
+
+Stack
+
+Queue
+
+Sliding Window Basics
+
+Two Pointer Technique
+
+Prefix Sum
+
+Binary Search (normal + on answer)
+
+Recursion & Backtracking
+
+Binary Trees
+
+BST
+
+Heap
+
+Tries
+
+Graphs
+
+DP Basics
+
+🧩 STEP 3: DSA PATTERNS (Most Important)
+
+Patterns help solve 1000+ problems with just 20–25 templates.
+
+⭐ Pattern 1: Sliding Window
+
+Used for subarrays, substring, max/min window size.
+
+🔑 Learn:
+
+Fixed window
+
+Variable window
+
+Longest substring problems
+
+📌 Problems:
+
+Max Sum Subarray
+
+Longest Substring Without Repeating Characters
+
+Minimum Window Substring (hard)
+
+▶ Resource:
+
+NeetCode Sliding Window Playlist (best)
+
+⭐ Pattern 2: Two Pointers
+
+Used for sorted arrays, collision pointers.
+
+📌 Problems:
+
+Pair Sum
+
+3Sum, 4Sum
+
+Remove duplicates
+
+Valid Palindrome
+
+▶ Resource:
+
+Kunal Kushwaha’s array playlist
+
+⭐ Pattern 3: Fast & Slow Pointers
+
+Linked list focused.
+
+📌 Problems:
+
+Cycle detection
+
+Middle of LinkedList
+
+Happy Number
+
+⭐ Pattern 4: Binary Search Patterns
+
+Not just mid — learn Binary Search on Answer.
+
+📌 Problems:
+
+First/Last Occurrence
+
+Peak Element
+
+Allocate Books / Painters Partition
+
+Koko Eating Bananas
+
+▶ Resource:
+
+Take U Forward – Binary Search on Answer
+
+⭐ Pattern 5: Prefix Sum & Hashing
+
+Used in ranges and frequency problems.
+
+📌 Problems:
+
+Subarray Sum = K
+
+Longest subarray with 0 sum
+
+Range prefix queries
+
+⭐ Pattern 6: BFS / DFS (Graph Pattern)
+
+Graphs = 20% syllabus but 40% interview problems.
+
+📌 Problems:
+
+Number of Islands
+
+Rotting Oranges
+
+Shortest Path
+
+Topological Sort (Kahn’s Algorithm)
+
+▶ Resource:
+
+Take U Forward Graph Playlist
+
+⭐ Pattern 7: Backtracking
+
+Used in recursion + choices-based problems.
+
+📌 Problems:
+
+Permutations
+
+N-Queens
+
+Subsets
+
+Sudoku Solver
+
+▶ Resource:
+
+NeetCode Backtracking playlist
+
+⭐ Pattern 8: Heap / Priority Queue
+
+Used for top-K, scheduling, merging.
+
+📌 Problems:
+
+K Closest Elements
+
+Merge K Sorted Lists
+
+Kth Largest
+
+Median in data stream
+
+⭐ Pattern 9: Dynamic Programming (DP)
+
+Start with DP on 1D, then 2D, then subsequences.
+
+Learn DP in this order:
+
+Fibonacci DP
+
+Climbing Stairs
+
+Knapsack (important)
+
+Subset Sum
+
+Partition DP
+
+DP on Strings
+
+DP on Trees
+
+DP on Graphs
+
+▶ Resource:
+
+DP Playlist by Aditya Verma (gold standard)
+
+Striver DP Series (A-Z)
+
+⭐ Pattern 10: Trees + BST Patterns
+
+📌 Problems:
+
+Inorder, preorder, postorder
+
+Height / diameter
+
+Lowest Common Ancestor
+
+Validate BST
+
+Boundary Traversal
+
+✨ STEP 4: Practice Roadmap (Beginner → LeetCode 150 → Advanced)
+✅ Beginner (30–40 Problems)
+
+Arrays, Strings, Prefix sum
+👉 Platform: LeetCode easy
+
+✅ Intermediate (80–100 Problems)
+
+Two pointers, sliding window, recursion, linked list
+👉 Solve LeetCode 150 list
+👉 Use NeetCode 150
+
+✅ Advanced (150–200 Problems)
+
+Binary search, heap, DP, graphs
+👉 LeetCode 300
+👉 Striver SDE Sheet
+
+📚 Best DSA Resources (All Free)
+🎥 YouTube
+
+Take U Forward – Striver (Full DSA A to Z)
+
+NeetCode (Patterns + LeetCode explanations)
+
+Aditya Verma (DP + sliding window best)
+
+📘 Notes
+
+Striver DSA Sheet Notion
+
+Love Babbar 450 Sheet
+
+NeetCode Pattern Sheet
+
+🧑‍💻 Practice Platforms
+
+LeetCode
+
+GeeksForGeeks
+
+Codeforces (after you get strong)
+
+InterviewBit
+
+🏆 Final 3-Month Preparation Plan
+📌 Month 1 – Master Core
+
+Arrays, Strings
+
+Prefix sum
+
+Two pointers
+
+Sliding window
+
+📌 Month 2 – Trees + Graphs
+
+Trees
+
+BST
+
+Graphs BFS/DFS
+
+Heap
+
+📌 Month 3 – Advanced
+
+Binary search on answer
+
+Dynamic Programming
+
+Backtracking
+
+System design basics (optional)
