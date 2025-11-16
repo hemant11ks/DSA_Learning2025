@@ -1,3 +1,390 @@
-Pattern:
+DSA Patterns (Beginner → Advanced) – Detailed Explanation
 
-Searching Alogorithm:
+Below are the most important patterns used in FAANG-level coding interviews.
+
+⭐ 1. Two Pointer Pattern
+
+Used when:
+
+The input is a sorted array, or
+
+You need to find pairs, triplets, or subarrays.
+
+Typical Problems:
+
+Pair sum in sorted array
+
+Remove duplicates
+
+Reverse array
+
+Container with most water
+
+How it works:
+
+You keep two pointers:
+
+left = 0,
+
+right = n−1
+
+Move pointers based on condition.
+
+Complexity:
+
+Time: O(n)
+
+Space: O(1)
+
+⭐ 2. Sliding Window Pattern
+
+Used when:
+
+You deal with contiguous subarrays or substrings
+
+Problems involve maximum/minimum, longest/shortest, At most k, etc.
+
+Types of windows:
+
+Fixed window → size is constant
+
+Dynamic window → expands & shrinks
+
+Typical Problems:
+
+Longest substring without repeating characters
+
+Maximum sum subarray of size k
+
+Minimum window substring
+
+Complexity:
+
+Time: O(n)
+
+Space: O(1) or O(k)
+
+⭐ 3. Fast & Slow Pointers (Floyd’s Algorithm)
+
+Used in:
+
+Linked list cycle detection
+
+Find middle of linked list
+
+Detect loop length
+
+Check palindrome in linked list
+
+How it works:
+
+slow = slow.next
+
+fast = fast.next.next
+
+⭐ 4. Binary Search Pattern
+
+Used for:
+
+Sorted arrays
+
+Monotonic functions (always increasing/decreasing)
+
+Search space reduction
+
+Forms:
+
+Classic binary search
+
+Search in rotated sorted array
+
+Binary search on answer (very important)
+
+Common Problems:
+
+First/last occurrence
+
+Peak element
+
+Aggressive cows / Allocate books (binary search on answer)
+
+Square root
+
+⭐ 5. Prefix Sum / Difference Array
+
+Used when:
+
+You have range queries, sum of subarrays, modifying ranges.
+
+Typical Problems:
+
+Subarray sum
+
+Equilibrium index
+
+Range addition
+
+Number of subarrays divisible by k
+
+Benefit:
+
+Preprocessing takes O(n)
+
+Each query becomes O(1)
+
+⭐ 6. Hashing Pattern
+
+Used for:
+
+Frequency counting
+
+Storing visited states
+
+Quick lookups
+
+Example Problems:
+
+Two sum
+
+Subarrays with sum k
+
+Longest sequence
+
+Group Anagrams
+
+⭐ 7. Stack Pattern
+
+Used for:
+
+Next greater element
+
+Balanced parentheses
+
+Monotonic stack (increasing or decreasing)
+
+Common Problems:
+
+Next Greater Element
+
+Daily temperatures
+
+Evaluate RPN
+
+Min Stack
+
+⭐ 8. Queue / Deque Pattern
+
+Used in:
+
+Sliding window maximum
+
+BFS in trees/graphs
+
+Level order traversal
+
+Important Use:
+
+Deque → required in O(n) sliding window max problems
+
+⭐ 9. Backtracking Pattern
+
+Used when:
+
+You need to generate combinations/permutations
+
+Exploring multiple possibilities
+
+Common Problems:
+
+N-Queens
+
+Sudoku solver
+
+Subsets
+
+Permutations
+
+Structure:
+backtrack(path, choices):
+    if goal:
+        record path
+    for choice in choices:
+        make choice
+        backtrack()
+        undo choice
+
+⭐ 10. Greedy Pattern
+
+Used for:
+
+Optimize something → minimum, maximum
+
+Problems with local optimum → leads to global optimum
+
+Common Problems:
+
+Activity Selection
+
+Fractional Knapsack
+
+Minimum platforms
+
+Jump Game
+
+⭐ 11. Divide and Conquer Pattern
+
+Used when:
+
+A problem can be split into subproblems
+
+Common Algorithms:
+
+Merge sort
+
+Quick sort
+
+Binary search
+
+Maximum subarray (Kadane variation)
+
+⭐ 12. Dynamic Programming Pattern
+
+Used when:
+
+Optimal substructure
+
+Overlapping subproblems
+
+Major DP Types:
+
+1D DP — Fibonacci, climbing stairs
+
+2D DP — Grids, paths
+
+Knapsack DP
+
+LCS / LIS DP
+
+DP on trees
+
+Bitmask DP
+
+Steps:
+
+Define state
+
+Define transition
+
+Build table
+
+Compute answer
+
+⭐ 13. Graph Traversal Pattern (BFS / DFS)
+
+Used for:
+
+Connected components
+
+Shortest path (unweighted)
+
+Cycle detection
+
+Algorithms:
+
+BFS
+
+DFS
+
+Topological sort
+
+Dijkstra (weighted shortest path)
+
+Union Find
+
+⭐ 14. Trie Pattern
+
+Used for:
+
+Auto-complete
+
+Dictionary words
+
+Prefix search
+
+Word search II
+
+Structure:
+class TrieNode:
+    children = {}
+    endOfWord = False
+
+⭐ 15. Heap Pattern (Priority Queue)
+
+Used when:
+
+You need the minimum or maximum element quickly
+
+Scheduling tasks
+
+Merging sorted lists
+
+Common Problems:
+
+K largest elements
+
+K sorted lists
+
+Median of data stream
+
+⭐ 16. Segment Tree / Fenwick Tree
+
+Advanced pattern for:
+
+Range sum / min / max queries
+
+Update queries
+
+Useful in:
+
+Competitive programming
+
+Heavy query problems
+
+⭐ 17. Matrix / Grid Pattern
+
+Used for:
+
+Island problems
+
+Maze traversal
+
+DP on matrix
+
+Use BFS/DFS with boundaries.
+⭐ 18. Bit Manipulation Pattern
+
+Used for:
+
+XOR tricks
+
+Subsets generation
+
+Single number problems
+
+⭐ 19. Topological Sort (DAG Pattern)
+
+Used for:
+
+Task scheduling
+
+Course schedule
+
+⭐ 20. Union-Find (Disjoint Set) Pattern
+
+Used for:
+
+Graph connectivity
+
+Cycle detection in undirected graph
+
+Kruskal’s MST
